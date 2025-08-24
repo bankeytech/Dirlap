@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+body {
+  font-family: 'Aeonik TRIAL';
+}
+
+@font-face {
+  font-family: 'Aeonik TRIAL';
+  src: url('./assets/fonts/aeoniktrial-regular.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Aeonik light';
+  src: url('./assets/fonts/aeoniktrial-light.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.bodyground{
+  background-image: url("./assets/bg1.jpg");
+  background-size: cover;
+  background-position:center;
+  height: 150vh;
+}
+
+.no-lineheight {
+  line-height: 1;
+}
+
+.font-light{
+  font-family: 'Aeonik light';
+  opacity: 0.8;
+}
+.cray{
+  background-image: url("./assets/craz.svg");
+  background-size: cover;
+  background-position:center;
+}
